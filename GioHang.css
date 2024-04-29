@@ -1,0 +1,192 @@
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .home ul {
+        width: 400px;
+        list-style: none;
+        font-size: 18px;
+        display: flex;
+        justify-content: space-between;
+        margin: 50px 0px;
+    }
+
+    .banner  {
+        height: 250px;
+        position: relative;
+    }
+
+    .banner img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .tilte {
+        position: absolute;
+        top: calc(50% - 27.6px);
+        left: calc(50% - 35.2px);
+    }
+
+    .tilte p {
+        font-size: 35px;
+    }
+
+    .title-con ul{
+        display: flex;
+        margin: 5px -15px;
+        list-style: none;
+    }
+
+    .title-con li a {
+        text-decoration: none;
+    }
+
+    .title-con li {
+        margin: 0px 5px;
+    }
+
+    #thongBao {
+        margin: 10px 90px;
+    }
+
+    #thongBao p {
+        font-size: 30px;
+    }
+
+    .section-2{
+        width: 1200px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .produce {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: auto;
+        border: 1px solid black;
+        margin: 20px 0px;
+        border-radius: 10px;
+    }
+
+    .produce img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .Sum {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Sum button {
+        border: none;
+        background-color: white;
+        cursor: pointer;
+    }
+
+    .bnt {
+        margin: 8px;
+    }
+
+    .Sum-money {
+        margin: 8px 15px;
+    }
+
+    .bnt a {
+        background-color: bisque;
+        padding: 10px;
+        border-radius: 20px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .bnt button {
+        padding: 10px;
+        border-radius: 20px;
+        border: none;
+        background-color: bisque;
+        margin-left: 10px;
+    }
+
+    hr {
+
+        width: 1200px;
+        margin: 40px auto;
+    }
+
+    .section-3   {
+        width: 100%;
+        min-height: 140px;
+        background-color: bisque;
+        margin: 20px 0px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .section-3 p {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .section-3 input {
+        width: 300px;
+        padding: 15px;
+        border: none;
+        border-radius: 20px;
+    }
+
+    .sale {
+        position: relative;
+    }
+
+    .sale button {
+        width: 80px;
+        position: absolute;
+        right: 0;
+        padding: 15px;
+        border: none;
+        border-radius: 20px;
+    }
+
+    .logo-2 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .logo-2 img {
+        width: 235px;
+        height: 78px;
+    }
+
+    .logo-2 ul {
+        list-style: none;
+        margin: 10px 0px;
+    }
+
+    .logo-2 li {
+        margin: 15px 0px;
+    }
+
+    .location li {
+        margin: 15px;
+    }
+
+    .khung {
+        width: 100%;
+        height: 15%;
+        background-color: bisque;
+        text-align: center;
+    }
+
+    .khung p {
+        padding: 15px;
+    }

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body >
+    <div class="list-produce">
+        <div class="produce">
+            <div class="produce-img">
+            <img src="Táo-Cherry-Mini-Hàn-Quốc.jpg" alt="">
+            <div class="chitiet">   
+                <button><a href="">Chi tiết</a></button>
+            </div>
+            </div>
+            <div class="produce-info">  
+                <del>30.000đ</del> <span>20.000đ</span>
+            </div>
+            
+            <div class="buy">
+                <input type="submit" value="Mua ngay">
+                <input type="submit" value="Thêm vào giỏ hàng">
+            </div>
+        </div>
+
+            <div class="produce">
+                <div class="produce-img">
+                    <img src="Táo-Cherry-Mini-Hàn-Quốc.jpg" alt="">
+                    <div class="chitiet">   
+                        <button><a href="">Chi tiết</a></button>
+                    </div>
+                </div>
+                <div class="produce-info">  
+                    <del>30.000đ</del> <span>20.000đ</span>
+                </div>
+                <div class="buy">
+                    <input type="submit" value="Mua ngay">
+                    <input type="submit" value="Thêm vào giỏ hàng">
+                </div>
+            </div>    
+                
+            <div class="produce">
+                <div class="produce-img">
+                    <img src="Táo-Cherry-Mini-Hàn-Quốc.jpg" alt="">
+                </div>
+                <div class="produce-info">  
+                    <del>30.000đ</del> <span>20.000đ</span>
+                </div>
+                <div class="buy">
+                    <input type="submit" value="Mua ngay">
+                    <input type="submit" value="Thêm vào giỏ hàng">
+                </div>
+            </div>    
+
+            <div class="produce">
+                <div class="produce-img">
+                    <img src="Táo-Cherry-Mini-Hàn-Quốc.jpg" alt="">
+                </div>
+                <div class="produce-info">  
+                    <del>30.000đ</del> <span>20.000đ</span>
+                </div>
+                <div class="buy">
+                    <input type="submit" value="Mua ngay">
+                    <input type="submit" value="Thêm vào giỏ hàng">
+                </div>
+            </div>    
+        </div>
+    </div>
+
+    <script>
+        var index = 1;
+        changeIMG =function(){
+            var imgs =["slider_1.webp", "slider_2.webp"];
+            document.getElementById("slider").src=imgs[index];
+            index++;
+            if(index==2){
+                index=0;
+            }
+
+        }
+        setInterval(changeIMG, 2000);
+    </script>
+
+     <div class="images">
+         <img id="slider" src="slider_1.webp" onclick="changeIMG()" >
+    </div>
+
+
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'Tất cả')">Tất cả</button>
+        <button class="tablinks" onclick="openCity(event, 'Trái cây')">Trái cây</button>
+        <button class="tablinks" onclick="openCity(event, 'Rau củ')">Rau củ</button>
+        <button class="tablinks" onclick="openCity(event, 'Ngũ cốc')">Ngũ cốc</button>
+    </div>
+
+    <div id="Tất cả" class="tabcontent">
+        <div class="list-produce">
+            <div class="produce">
+                <div class="produce-img">
+                 <a href="Chitietsanpham.html"><img src="Táo-Cherry-Mini-Hàn-Quốc.jpg" alt=""></a> 
+                </div>
+                <div class="produce-info">  
+                    <del>30.000đ</del> <span>20.000đ</span>
+                </div>
+                <div class="buy">
+                    <input type="submit" value="Mua ngay">
+                    <input type="submit" value="Thêm vào giỏ hàng">
+                </div>
+            </div>
+    
+                <div class="produce">
+                    <div class="produce-img">
+                        <img src="Táo-Cherry-Mini-Hàn-Quốc.jpg" alt="">
+                    </div>
+                    <div class="produce-info">  
+                        <del>30.000đ</del> <span>20.000đ</span>
+                    </div>
+                    <div class="buy">
+                        <input type="submit" value="Mua ngay">
+                        <input type="submit" value="Thêm vào giỏ hàng">
+                    </div>
+                </div>    
+                    
+                <div class="produce">
+                    <div class="produce-img">
+                        <img src="Táo-Cherry-Mini-Hàn-Quốc.jpg" alt="">
+                    </div>
+                    <div class="produce-info">  
+                        <del>30.000đ</del> <span>20.000đ</span>
+                    </div>
+                    <div class="buy">
+                        <input type="submit" value="Mua ngay">
+                        <input type="submit" value="Thêm vào giỏ hàng">
+                    </div>
+                </div>    
+    
+                <div class="produce">
+                    <div class="produce-img">
+                        <img src="Táo-Cherry-Mini-Hàn-Quốc.jpg" alt="">
+                    </div>
+                    <div class="produce-info">  
+                        <del>30.000đ</del> <span>20.000đ</span>
+                    </div>
+                    <div class="buy">
+                        <input type="submit" value="Mua ngay">
+                        <input type="submit" value="Thêm vào giỏ hàng">
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>
+
+
+    <div id="Trái cây" class="tabcontent">
+        <div class="list-produce">
+            <div class="produce">
+                <div class="produce-img">
+                 <a href="Chitietsanpham.html"><img src="Táo-Cherry-Mini-Hàn-Quốc.jpg" alt=""></a> 
+                </div>
+                <div class="produce-info">  
+                    <del>30.000đ</del> <span>20.000đ</span>
+                </div>
+                <div class="buy">
+                    <input type="submit" value="Mua ngay">
+                    <input type="submit" value="Thêm vào giỏ hàng">
+                </div>
+            </div>
+    
+                <div class="produce">
+                    <div class="produce-img">
+                        <img src="Táo-Cherry-Mini-Hàn-Quốc.jpg" alt="">
+                    </div>
+                    <div class="produce-info">  
+                        <del>30.000đ</del> <span>20.000đ</span>
+                    </div>
+                    
+                    <div class="buy">
+                        <input type="submit" value="Mua ngay">
+                        <input type="submit" value="Thêm vào giỏ hàng">
+                    </div>
+                </div>    
+                    
+                <div class="produce">
+                    <div class="produce-img">
+                        <img src="Táo-Cherry-Mini-Hàn-Quốc.jpg" alt="">
+                    </div>
+                    <div class="produce-info">  
+                        <del>30.000đ</del> <span>20.000đ</span>
+                    </div>
+                    <div class="buy">
+                        <input type="submit" value="Mua ngay">
+                        <input type="submit" value="Thêm vào giỏ hàng">
+                    </div>
+                </div>    
+    
+                <div class="produce">
+                    <div class="produce-img">
+                        <img src="Táo-Cherry-Mini-Hàn-Quốc.jpg" alt="">
+                    </div>
+                    <div class="produce-info">  
+                        <del>30.000đ</del> <span>20.000đ</span>
+                    </div>
+                    <div class="buy">
+                        <input type="submit" value="Mua ngay">
+                        <input type="submit" value="Thêm vào giỏ hàng">
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>
+
+
+    <div id="Rau củ" class="tabcontent">
+        <div class="list-produce">
+            <div class="produce">
+                <div class="produce-img">
+                 <a href="Chitietsanpham.html"><img src="Táo-Cherry-Mini-Hàn-Quốc.jpg" alt=""></a> 
+                </div>
+                <div class="produce-info">  
+                    <del>30.000đ</del> <span>20.000đ</span>
+                </div>
+                <div class="buy">
+                    <input type="submit" value="Mua ngay">
+                    <input type="submit" value="Thêm vào giỏ hàng">
+                </div>
+            </div>
+    
+                <div class="produce">
+                    <div class="produce-img">
+                        <img src="22-0ebe1919-23f8-423c-82dc-05bceb49649d.jpg" alt="">
+                    </div>
+                    <div class="produce-info">  
+                        <del>30.000đ</del> <span>20.000đ</span>
+                    </div>
+                    <div class="buy">
+                        <input type="submit" value="Mua ngay">
+                        <input type="submit" value="Thêm vào giỏ hàng">
+                    </div>
+                </div>    
+                    
+                <div class="produce">
+                    <div class="produce-img">
+                        <img src="Táo-Cherry-Mini-Hàn-Quốc.jpg" alt="">
+                    </div>
+                    <div class="produce-info">  
+                        <del>30.000đ</del> <span>20.000đ</span>
+                    </div>
+                    <div class="buy">
+                        <input type="submit" value="Mua ngay">
+                        <input type="submit" value="Thêm vào giỏ hàng">
+                    </div>
+                </div>    
+    
+                <div class="produce">
+                    <div class="produce-img">
+                        <img src="Táo-Cherry-Mini-Hàn-Quốc.jpg" alt="">
+                    </div>
+                    <div class="produce-info">  
+                        <del>30.000đ</del> <span>20.000đ</span>
+                    </div>
+                    <div class="buy">
+                        <input type="submit" value="Mua ngay">
+                        <input type="submit" value="Thêm vào giỏ hàng">
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>
+
+
+    <div id="Ngũ cốc" class="tabcontent">
+        <div class="list-produce">
+            <div class="produce">
+                <div class="produce-img">
+                 <a href="Chitietsanpham.html"><img src="Táo-Cherry-Mini-Hàn-Quốc.jpg" alt=""></a> 
+                </div>
+                <div class="produce-info">  
+                    <del>30.000đ</del> <span>20.000đ</span>
+                </div>
+                <div class="buy">
+                    <input type="submit" value="Mua ngay">
+                    <input type="submit" value="Thêm vào giỏ hàng" onclick="renderUI()">
+                </div>
+            </div>
+    
+                <div class="produce">
+                    <div class="produce-img">
+                        <img src="dautay.webp" alt="">
+                    </div>
+                    <div class="produce-info">  
+                        <del>30.000đ</del> <span>20.000đ</span>
+                    </div>
+                    <div class="buy">
+                        <input type="submit" value="Mua ngay">
+                        <input type="submit" value="Thêm vào giỏ hàng">>
+                    </div>
+                </div>    
+                    
+                <div class="produce">
+                    <div class="produce-img">
+                        <img src="Táo-Cherry-Mini-Hàn-Quốc.jpg" alt="">
+                    </div>
+                    <div class="produce-info">  
+                        <del>30.000đ</del> <span>20.000đ</span>
+                    </div>
+                    <div class="buy">
+                        <input type="submit" value="Mua ngay">
+                        <input type="submit" value="Thêm vào giỏ hàng">
+                    </div>
+                </div>    
+    
+                <div class="produce">
+                    <div class="produce-img">
+                        <img src="Táo-Cherry-Mini-Hàn-Quốc.jpg" alt="">
+                    </div>
+                    <div class="produce-info">  
+                        <del>30.000đ</del> <span>20.000đ</span>
+                    </div>
+                    <div class="buy">
+                        <input type="submit" value="Mua ngay">
+                        <input type="submit" value="Thêm vào giỏ hàng">
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>
+
+<script src="GhTest.js"></script>
+<script>
+    window.onload = function() {
+        document.getElementsByClassName("tablinks")[0].classList.add("active");
+        document.getElementById("Tất cả").style.display = "block"; 
+    };
+    function openCity(evt, fullMenu) {
+        var i, tabcontent, tablinks;
+
+        // ẩn
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        // xóa 'active'
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace("active", "");
+        }
+
+        // hiển thị tab
+        document.getElementById(fullMenu).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+</script>
+</body>
+</html>

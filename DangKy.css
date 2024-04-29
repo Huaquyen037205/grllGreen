@@ -1,0 +1,406 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: whitesmoke    ;
+}
+
+.header {
+    width: 100%;
+    height: 15%;
+    position: absolute;
+    top: 0px;
+}
+
+.menu {
+    width: 40%;
+    height: 30%;
+    position: absolute;
+    top: 55%;
+    left: 40%;
+}
+
+.menu a {
+    font-size: large;
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    color: #7cc652 ;
+}
+
+.logo{
+    width: 15%;
+    height: 68%;
+    background-image: url(logo.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+.icon{
+    display: flex;
+    position: absolute;
+    right: 10%;
+    top: 55%;
+}
+
+.icon i {
+    margin-right: 35px;
+    font-size: large;
+}
+
+.icon a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner {
+    width: 100%;
+    height: 35%;
+    background-image: url(/bg_breadcrumb.webp);
+    background-size: 100% 100%;
+    background-repeat:no-repeat  ;
+    position: absolute;
+    top: 17%;
+}
+
+h2 {
+    font-family: Quicksand",sans-serif";
+    font-size: xx-large;
+    position: absolute;
+    top: 31%;
+    right: 41.5%;
+}
+
+.pp {
+    display: flex;
+    width: 15%;
+    height: 5%;
+    position: absolute;
+    top: 38%;
+    right: 41%;
+}
+
+.pp p {
+    font-size: large;
+    margin-right: 10px;
+    color: #57853c;
+}
+
+.pp a {
+    margin-right: 10px;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+
+.pp a:hover {
+    color: #7cc652;
+}
+
+.boder {
+    width: 40%;
+    height: 60%;
+    border-style:none;
+    border-radius: 10px;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+}
+
+.subcribe p {
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.fb {
+    width: 20%;
+    height: 6%;
+    border-style: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+
+.fb i { 
+    font-size: xx-large;
+    color: rgb(70, 70, 177);
+}
+
+.gg {
+    background-color: rgb(193, 62, 62);
+    width: 6%;
+    height: 6.5%;
+    border-style:none;
+    border-radius: 6px;
+    position: absolute;
+    top: 10.5%;
+    right: 40%;
+}
+
+.gg i{
+    font-size: x-large;
+    position: absolute;
+    top: 7%;
+    left: 17%;
+    color: whitesmoke;
+}
+
+.cd-form {
+    width: 280px;
+    height: 60px;
+}
+
+.login-1  {
+  margin: 70px 160px;
+}
+
+.login-1 input {
+    width: 250px;
+    margin: 15px 0px;
+    display: block;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 15px;
+}   
+
+.subbmit input {
+    margin: 20px auto ;
+    padding: 10px;
+    background:linear-gradient(120deg, #4fc794 0%, #96e6a1 100%) ;
+    border-style: none;
+    border-radius: 20px;
+    color: white;
+}
+
+.error-message {
+    display: flex;
+    margin: -5px; 
+    font-size: 12px; 
+}
+
+.subbmit a {
+    text-decoration: none;
+}
+
+.subbmit input {
+    color: whitesmoke;
+}
+
+.subbmit input:hover{
+   background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+}
+
+.section-2 {
+    width: 100%;
+    height: 25%;
+    background-color: #e4dac9;
+    position: absolute;
+    top: 125%;
+}
+
+.e-mail {
+   position: absolute;
+   right:20%;
+   top: 40%;
+}
+
+.e-mail input {
+    width: 450px;
+    height: 45px;
+    padding: 0 20px;
+    font-size: medium;
+    border-style:none;
+    border-radius: 20px;
+}
+
+.submit-1 {
+    width: 8%;
+    height: 45px;
+    background-color: #7cc652;
+    border-style:none;
+    border-radius: 20px;
+    position: absolute;
+    right: 15%;
+    top: 40%;
+}
+
+.submit-1 a {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+}
+
+.section-2 h2 {
+    font-family:"Quicksand",sans-serif;
+    font-size: x-large;
+    position: absolute;
+    left: 10%;
+    top: 45%;
+}
+
+
+.logo-2{
+    width: 15%;
+    height: 10%;
+    background-image: url(/logo.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 153%;
+    left: 15%;
+}
+
+.icon-2 {
+    position: absolute;
+    top: 164%;
+    left: 15%;
+}
+
+.icon-2 i {
+    display: block;
+    font-size: larger;
+    margin-top: 25px;
+    color: #57853c;
+}
+
+.circle-4 {
+    position: absolute;
+    top: 166.6%;
+    left: 14.4%;
+}
+
+.circle-5 {
+    position: absolute;
+    top: 172.6%;
+    left: 14.42%;
+}
+
+.circle-6 {
+    position: absolute;
+    top: 178.6%;
+    left: 14.58%;
+}
+
+.circlee i {
+    font-size: xx-large;
+    color: #57853c;
+}
+
+.note-2 p{
+    position: absolute;
+    top: 166.3%;
+    left: 17%;
+}
+
+.stdd a {
+    position: absolute;
+    top:  172%;
+    left: 17%
+}
+
+.emaill a {
+    position: absolute;
+    top: 178.4%;
+    left: 17%
+}
+
+.note-2 a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+}
+
+.deMuc .h2{
+    width: 15%;
+    font-size: medium;
+    position: absolute;
+    top:158%;
+    left: 43%;
+}
+
+.h3 {
+    width: 8%;
+    font-size: medium;
+    position: absolute;
+    top:158%;
+    left: 60%;
+}
+
+.h4{
+    width: 10%;
+    font-size: medium;
+    position: absolute;
+    top:158%;
+    left: 75%;
+}
+
+.note-cn {
+    position: absolute;
+    top: 163%;
+    left: 43%;
+}
+
+.note-cn a {
+    display: block;
+    text-decoration: none;
+    color:black;
+    margin-top: 7px;
+}
+
+.note-cs {
+    position: absolute;
+    top: 163%;
+    left: 60%;
+}
+
+.note-cs a {
+    display: block;
+    text-decoration: none;
+    color:black;
+    margin-top: 7px;
+}
+
+.note-dv {
+    position: absolute;
+    top: 163%;
+    left: 75%;
+}
+
+.note-dv a {
+    display: block;
+    text-decoration: none;
+    color:black;
+    margin-top: 7px;
+}
+
+.deMuc a:hover {
+    color: #57853c;
+}
+
+.banQuyen {
+    width: 100%;
+    height: 9%;
+    background-color: #e4dac9;
+    position: absolute;
+    top: 190%;
+}
+
+.banQuyen p {
+    font-size: medium;
+    position: absolute;
+    top: 45%;
+    left: 38%;
+}

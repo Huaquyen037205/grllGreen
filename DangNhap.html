@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dang Nhap</title>
+    <link rel="stylesheet" href="dangnhap.css">
+    <script src="https://kit.fontawesome.com/5a06f65a96.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="dai"></div>
+
+    <header class="header">
+        <div class="green"></div>
+            <nav class="menu">
+                <a style="margin-right: 50px;" href="lienHe.html">LIÊN HỆ</a>
+                <span class="trangchu" style="margin-right: 50px;">HOTLINE: 905.751.907</span>
+                <a style="margin-right: 50px;" href="gioithieu.html">GIỚI THIỆU</a>
+                <div class="user"><i class="fa-solid fa-user"></i>
+                </div>
+            </nav>
+    </header>
+
+    <div class="login"> 
+        <h2>Đăng nhập</h2>
+        <form action="#" method="post" name="dang-ky">
+            <div class="cd-formm">
+                <input id="checkUser" class="ppg" onblur="checkUs()" type="text" name="username" placeholder="Nhập tên đăng ký" />
+                <div id="errorUser" style="color: red;"></div>
+            </div>
+
+            <div class="cd-formm">
+                <input id="checkPass" class="ppg"  onblur="checkPas()" type="password" name="password" placeholder="Nhập mật khẩu" />
+                <div id="errorPas" style="color: red;"></div>
+            </div>
+            
+            <input type="checkbox" id="checkbox" name="checkbox"><label class="checkbox-text">Nhớ mật khẩu</label>
+            <a href=""><p> Đăng Nhập</p></a>
+            <label class="psw-text">Quên mật khẩu</label>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="logo-1"></div>
+
+        <div class="addrres">
+            <a href="">Tầng 6 toà nhà Ladeco, 266 Đội Cấn, Ba Đình, Hà Nội</a>
+        </div>
+
+        <div class="location">
+            <i style="color: #00845c; font-size: medium;" class="fa-solid fa-location-dot"></i>
+        </div>
+
+
+        <div class="phone">
+            <a href="">905.751.907</a>
+        </div>
+            <div class="phone-icon">
+                <i style="color: #00845c; font-size: medium;" class="fa-solid fa-phone"></i>
+            </div>
+
+        <div class="email">
+            <a href="">ASM1@FPT.edu.vn</a>
+        </div>
+            <div class="envelope">
+                <i style="color: #00845c; font-size: medium;" class="fa-solid fa-envelope"></i>
+            </div>
+
+        <div class="login-footer">
+            <div class="full-name">
+                <input style="font-size: larger; border-radius: 20px;border-style:none ; padding: 10px" type="text" placeholder=" Họ tên">
+            </div>
+            <div class="email-Cn">
+                <input style="font-size: larger; border-radius: 20px;border-style:none ; padding: 10px" type="text" placeholder=" Phản hồi">
+            </div>
+
+            <div class="submit">
+               <a href="#22"><p>Gửi</p></a> 
+            </div>
+        </div>
+
+        <div class="link">
+            <div class="linkFb">
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+            <div class="lienhe">
+                <a href="https://www.facebook.com/hohua.nhokcon?mibextid=zOiqff"><p>https://www.facebook.com/hohua.nhokcon?mibextid=zOiqff</p></a>
+            </div>
+        </div>
+</footer>
+<script src="dangnhap.js"></script>
+</body>
+</html>

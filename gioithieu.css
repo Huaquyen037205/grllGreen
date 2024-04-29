@@ -1,0 +1,342 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.dai {
+    width: 100%;
+    height: 150px;
+    background-color:whitesmoke ;
+}
+
+.header {
+    width: 100%;
+    height: 15%;
+    position: absolute;
+    top: 0px;
+}
+
+.menu {
+    width: 40%;
+    height: 30%;
+    position: absolute;
+    top: 55%;
+    left: 40%;
+}
+
+.menu a {
+    font-size: large;
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    color: #7cc652 ;
+}
+
+.logo{
+    width: 15%;
+    height: 68%;
+    background-image: url(/logo.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+.icon{
+    display: flex;
+    position: absolute;
+    right: 10%;
+    top: 55%;
+}
+
+.icon i {
+    margin-right: 35px;
+    font-size: large;
+}
+
+.icon a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner {
+    width: 100%;
+    height: 35%;
+    background-image: url(/bg_breadcrumb.webp);
+    background-size: 100% 100%;
+    background-repeat:no-repeat  ;
+    position: absolute;
+    top: 17%;
+}
+
+h2 {
+    font-family: Quicksand",sans-serif";
+    font-size: xx-large;
+    position: absolute;
+    top: 31%;
+    right: 46%;
+}
+
+.pp {
+    display: flex;
+    width: 15%;
+    height: 5%;
+    position: absolute;
+    top: 38%;
+    right: 41%;
+}
+
+.pp p {
+    font-size: large;
+    margin-right: 10px;
+    color: #57853c;
+}
+
+.pp a {
+    margin-right: 10px;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+
+.pp a:hover {
+    color: #7cc652;
+}
+
+.title a {
+    text-decoration: none;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    position: absolute;
+    top: 60%;
+    left: 15%;
+}
+
+.title a:hover {
+    color: #57853c;
+}
+
+.passd-1 p {
+    width: 76%;
+    font-size: medium;
+    position: absolute;
+    top: 68%;
+    left: 15%;
+}
+
+.passd-2 p {
+    width: 76%;
+    font-size: medium;
+    position: absolute;
+    top: 95%;
+    left: 15%;
+}
+
+.section-2 {
+    width: 100%;
+    height: 25%;
+    background-color: #e4dac9;
+    position: absolute;
+    top: 120%;
+}
+
+.e-mail {
+   position: absolute;
+   right:20%;
+   top: 40%;
+}
+
+.e-mail input {
+    width: 450px;
+    height: 45px;
+    padding: 0 20px;
+    font-size: medium;
+    border-style:none;
+    border-radius: 20px;
+}
+
+.submit-1 {
+    width: 8%;
+    height: 45px;
+    background-color: #7cc652;
+    border-style:none;
+    border-radius: 20px;
+    position: absolute;
+    right: 15%;
+    top: 40%;
+}
+
+.submit-1 a {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+}
+
+.section-2 h2 {
+    font-family:"Quicksand",sans-serif;
+    font-size: x-large;
+    position: absolute;
+    left: 10%;
+    top: 45%;
+}
+
+.logo-2{
+    width: 15%;
+    height: 10%;
+    background-image: url(/logo.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 150%;
+    left: 15%;
+}
+
+.icon-2 {
+    position: absolute;
+    top: 160%;
+    left: 15%;
+}
+
+.icon-2 i {
+    display: block;
+    font-size: larger;
+    margin-top: 25px;
+    color: #57853c;
+}
+
+.circle-4 {
+    position: absolute;
+    top: 162.5%;
+    left: 14.4%;
+}
+
+.circle-5 {
+    position: absolute;
+    top: 168.6%;
+    left: 14.42%;
+}
+
+.circle-6 {
+    position: absolute;
+    top: 174.8%;
+    left: 14.58%;
+}
+
+.circlee i {
+    font-size: xx-large;
+    color: #57853c;
+}
+
+.note-2 p{
+    position: absolute;
+    top: 162%;
+    left: 17%;
+}
+
+.stdd a {
+    position: absolute;
+    top:  167.9%;
+    left: 17%
+}
+
+.emaill a {
+    position: absolute;
+    top: 173.9%;
+    left: 17%
+}
+
+.note-2 a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+}
+
+.deMuc .h2{
+    width: 15%;
+    font-size: medium;
+    position: absolute;
+    top:154%;
+    left: 43%;
+}
+
+.h3 {
+    width: 8%;
+    font-size: medium;
+    position: absolute;
+    top:154%;
+    left: 60%;
+}
+
+.h4{
+    width: 10%;
+    font-size: medium;
+    position: absolute;
+    top:154%;
+    left: 75%;
+}
+
+.note-cn {
+    position: absolute;
+    top: 158%;
+    left: 43%;
+}
+
+.note-cn a {
+    display: block;
+    text-decoration: none;
+    color:black;
+    margin-top: 7px;
+}
+
+.note-cs {
+    position: absolute;
+    top: 158%;
+    left: 60%;
+}
+
+.note-cs a {
+    display: block;
+    text-decoration: none;
+    color:black;
+    margin-top: 7px;
+}
+
+.note-dv {
+    position: absolute;
+    top: 158%;
+    left: 75%;
+}
+
+.note-dv a {
+    display: block;
+    text-decoration: none;
+    color:black;
+    margin-top: 7px;
+}
+
+.deMuc a:hover {
+    color: #57853c;
+}
+
+.banQuyen {
+    width: 100%;
+    height: 9%;
+    background-color: #e4dac9;
+    position: absolute;
+    top: 186%;
+}
+
+.banQuyen p {
+    font-size: medium;
+    position: absolute;
+    top: 45%;
+    left: 38%;
+}

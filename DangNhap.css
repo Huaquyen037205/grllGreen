@@ -1,0 +1,293 @@
+.dai {
+    width: 100%;
+    height: 1000px;
+}
+
+    * {
+        margin: 0px;
+        padding: 0;
+    }
+
+    .header {
+        width: 100%;
+        height: 25%;
+        background-color: #eee;
+        position: absolute; 
+        top: 0px;
+    }
+
+.green {
+        width: 22%;
+        height: 60%;
+        background-image: url(/logo.webp);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        top: 20%;
+        left: 10%;
+    }
+    
+
+    nav {
+        width: 40%;
+        height: 30%;
+        position: absolute;
+        top: 40%;
+        right:10% ;
+    }
+    
+    .user i {
+        font-size: x-large;
+        position: absolute;
+        right: 8%;
+        top: -10%;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .menu>.trangchu{
+        color: #7cc652;
+    }
+    .menu>:hover{
+        color:#7cc652  ;    
+    }
+    
+
+    .login {
+        width: 400px;
+        border-radius: 10px;
+        overflow: hidden;
+        padding: 55px 55px 37px;
+        background: linear-gradient(to right, #00b09b, #96c93d);  
+        text-align: center;
+    }
+
+    .login {
+        position: absolute;
+        top: 29%;
+        left:33.8%;
+    }
+    
+    .login h2 {
+        font-size: 30px;
+        color: #fff;
+        line-height: 1.2;
+        text-align: center;
+        text-transform: uppercase;
+        display: block;
+        margin-bottom: 30px;
+    }
+    
+    .login input[type=text], .login input[type=password] {
+        font-family: Poppins-Regular;
+        font-size: 16px;
+        color: #fff;
+        line-height: 1.2;
+        display: block;
+        width: calc(100% - 10px);
+        height: 45px;
+        background: 0 0;
+        padding: 10px 0;
+        border: 0;
+        outline: 0;
+    }
+
+    .ppg {
+        border-bottom: 2px solid rgba(255,255,255,.24)!important;
+  }
+
+  .ppr {
+      border-bottom: 2px solid red !important;
+  }
+
+    .login input[type=text]::focus, .login input[type=password]::focus {
+        color: red;
+    }
+    .login input[type=password] {
+         margin-bottom: 20px;
+    }
+    .login input::placeholder {
+        color: #fff;
+    }
+    .checkbox {
+        display: block;
+    }
+
+    .login a {
+        font-size: 16px;
+        color: #555;
+        min-width: 80px;
+        height: 50px;
+        border-radius: 25px;
+        background: #fff;
+        position: relative;
+        display: block;
+        margin: 30px auto;
+        text-decoration: none;
+        font-size: x-large;
+    }
+
+    .login p {
+        position: absolute;
+        top: 20%;
+        left: 35%;
+    }
+
+    #checkbox {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .checkbox-text {
+        color: #fff;
+    }
+    .psw-text {
+        color: #fff;
+    }
+
+
+    footer {
+        width: 100%;
+        height: 53%;
+        background-color: #EEEEEE;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 700px;
+    }
+
+    .footer a:hover{
+        color: #3CB371;
+    }
+    
+    .logo-1 {
+        width: 18%;
+        height: 20%;
+        background-image: url(/logo.webp);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+    
+    .location {
+        position: absolute;
+        top: 35%;
+        left: 10%;
+    }
+    
+    .addrres a {
+        width: 25%;
+        height: 5%;
+        text-decoration: none;
+        position: absolute;
+        top: 35%;
+        left: 11.5%;
+        color: black;
+    }
+    
+    .phone-icon {
+        position: absolute;
+        top: 45%;
+        left: 10%;
+    }
+    
+    .phone a{
+        width: 20%;
+        height: 5%;
+        text-decoration: none;
+        position: absolute;
+        top: 45%;
+        left: 11.5%;
+        color: black;
+    }
+    
+    .envelope {
+        position: absolute;
+        top: 56%;
+        left: 10%;
+    }
+    
+    .email a{
+        text-decoration: none;
+        position: absolute;
+        top: 56%;
+        left: 11.5%;
+        color: black;
+    }
+    
+    .full-name {
+        position: absolute;
+        top:15%;
+        left:50% ;
+    }
+    
+    .email-Cn {
+        position: absolute;
+        top:15%;
+        left:68% ;
+    }
+    
+    .submit {
+        background-color: white;
+        font-size: larger;
+        border-style: none;
+        border-radius: 20px;
+        padding: 10px;
+        width: 150px;
+        position: absolute;
+        top: 35%;
+        right:20%;
+    }
+
+    .submit p {
+        color: black;
+        text-align: center;
+    }
+
+    .submit a {
+        text-decoration: none;
+    }   
+
+    .submit p:hover {
+        color: white;
+    }
+
+    .submit:hover {
+        background-color: #7cc652;
+    }
+
+    .link {
+        width: 30%;
+        height: 9%;
+        background-color: white;
+        border-style: none;
+        border-radius: 20px;
+        position: absolute;
+        right: 20%;
+        top: 55%;       
+    }
+
+    .linkFb {
+        position: absolute;
+        right: 92%;
+        top: 18%;
+    }
+
+    .linkFb i {
+        font-size: x-large;
+    }
+
+    .lienhe {
+        position: absolute;
+        right: 5%;
+        top: 30%;
+    }
+
+    .lienhe a {
+        text-decoration: none;
+        color: black;
+    }

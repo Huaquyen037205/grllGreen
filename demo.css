@@ -1,0 +1,180 @@
+.item a {
+    color: black;
+}
+
+.item-1 {
+    width: 15%;
+    height: 29%;
+    color: #7cc652;
+    background-image: url(/dautay.webp);
+    background-repeat: no-repeat;
+    border-style: ridge;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+
+.item-info-1 {
+    width: 10%;
+    height: 30%;
+    text-decoration: none;
+    position: absolute;
+    top:52%;
+    left: 19%;
+}
+
+.item-2 {
+    width: 15%;
+    height: 29%;
+    color: #7cc652;
+    background-image: url(/Táo-Cherry-Mini-Hàn-Quốc.jpg);
+    background-repeat: no-repeat;
+    border-style: ridge;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 20%;
+    left: 32%;
+}
+
+.item-info-2 {
+    width: 10%;
+    height: 30%;
+    text-decoration: none;
+    position: absolute;
+    top:52%;
+    left: 38%;
+}
+
+.item-3 {
+    width: 15%;
+    height: 29%;
+    color: #7cc652;
+    background-image: url(/22-0ebe1919-23f8-423c-82dc-05bceb49649d.jpg);
+    background-repeat: no-repeat;
+    border-style: ridge;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 20%;
+    left: 49%;
+}
+
+.item-info-3 {
+    width: 10%;
+    height: 30%;
+    text-decoration: none;
+    position: absolute;
+    top:52%;
+    left: 53%;
+}
+
+.item-4 {
+    width: 15%;
+    height: 29%;
+    color: #7cc652;
+    background-image: url(/13-0b69bdec-f167-4a7b-a54d-392b42ea1d21.jpg);
+    background-repeat: no-repeat;
+    border-style: ridge;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 20%;
+    left: 66%;
+}
+
+.item-info-4 {
+    width: 10%;
+    height: 30%;
+    text-decoration: none;
+    position: absolute;
+    top:52%;
+    left: 71%;
+}
+
+.item-5 {
+    width: 15%;
+    height: 29%;
+    color: #7cc652;
+    background-image: url(/bot-ngu-coc-4hqe9jaw.png);
+    background-repeat: no-repeat;
+    border-style: ridge;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 60%;
+    left: 15%;
+}
+
+.item-info-5 {
+    width: 10%;
+    height: 30%;
+    text-decoration: none;
+    position: absolute;
+    top: 91%;
+    left: 20.5%;
+}
+
+.item-6 {
+    width: 15%;
+    height: 29%;
+    color: #7cc652;
+    background-image: url(/gaoLut.jpg);
+    background-repeat: no-repeat;
+    border-style: ridge;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 60%;
+    left: 32%;
+}
+
+.item-info-6 {
+    width: 10%;
+    height: 30%;
+    text-decoration: none;
+    position: absolute;
+    top:91%;
+    left: 36%;
+}
+
+.item-7 {
+    width: 15%;
+    height: 29%;
+    color: #7cc652;
+    background-image: url(/bapcai.jpg);
+    background-repeat: no-repeat;
+    border-style: ridge;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 60%;
+    left: 49%;
+}
+
+.item-info-7 {
+    width: 10%;
+    height: 30%;
+    text-decoration: none;
+    position: absolute;
+    top:91%;
+    left: 55%;
+}
+
+.item-8 {
+    width: 15%;
+    height: 29%;
+    color: #7cc652;
+    background-image: url(/bun.jpg);
+    background-repeat: no-repeat;
+    border-style: ridge;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 60%;
+    left: 66%;
+}
+
+.item-info-8 {
+    width: 10%;
+    height: 30%;
+    text-decoration: none;
+    position: absolute;
+    top:91%;
+    left: 71%;
+}   
